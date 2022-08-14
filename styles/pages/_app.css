@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+}
+
+@font-face {
+    font-family: work;
+    src: url("../../assets/fonts/work.ttf");
+    font-weight: 100 900;
+}
+
+@font-face {
+    font-family: worki;
+    src: url("../../assets/fonts/worki.ttf");
+    font-weight: 100 900;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+.clickable {
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.clickable:hover {
+    transform: scale(1.05);
+}
+
+.clickable:active {
+    transform: scale(0.95);
+}
+
+@media (max-width: 600px) {
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+}
+
+@media (any-pointer: coarse) {
+    .clickable:hover {
+        transform: none;
+    }
+
+    .clickable:active {
+        transform: scale(0.9);
+    }
+}
