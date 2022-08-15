@@ -30,6 +30,23 @@ export default function Index() {
                     <span className={styles.contactButton + " clickable"}>Contact</span>
                 </a>
             </section>
+            <section className={styles.aboutSection} id="work">
+                <h2 className={styles.sectionTitle}>Work</h2>
+                <div className={styles.workContainer}>
+                    <img className={styles.workPhoto} src="/images/work/1.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/2.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/3.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/4.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/5.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/6.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/7.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/8.png" />
+                    <img className={styles.workPhoto} src="/images/work/9.png" />
+                    <img className={styles.workPhoto} src="/images/work/10.png" />
+                    <img className={styles.workPhoto} src="/images/work/11.png" />
+                    <img className={styles.workPhoto} src="/images/work/12.png" />
+                </div>
+            </section>
             <section className={styles.aboutSection} id="about">
                 <h2 className={styles.sectionTitle}>About</h2>
                 <p className={styles.sectionPar}>
@@ -63,23 +80,6 @@ export default function Index() {
                         <span className={styles.serviceTitle}>Snow Plowing</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
-                </div>
-            </section>
-            <section className={styles.aboutSection} id="work">
-                <h2 className={styles.sectionTitle}>Work</h2>
-                <div className={styles.workContainer}>
-                    <img className={styles.workPhoto} src="/images/work/1.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/2.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/3.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/4.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/5.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/6.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/7.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/8.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/9.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/10.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/11.jpg" />
-                    <img className={styles.workPhoto} src="/images/work/12.jpg" />
                 </div>
             </section>
             <section className={styles.contactSection} id="contact">
