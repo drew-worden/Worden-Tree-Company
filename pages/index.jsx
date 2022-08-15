@@ -30,8 +30,8 @@ export default function Index() {
                     <span className={styles.contactButton + " clickable"}>Contact</span>
                 </a>
             </section>
-            <section className={styles.aboutSection} id="work">
-                <h2 className={styles.sectionTitle}>Work</h2>
+            <section className={styles.workSection} id="work">
+                <h2 className={styles.workSectionTitle}>Work</h2>
                 <div className={styles.workContainer}>
                     <img className={styles.workPhoto} src="/images/work/1.jpg" />
                     <img className={styles.workPhoto} src="/images/work/2.jpg" />
