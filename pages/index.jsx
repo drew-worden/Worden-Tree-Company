@@ -48,19 +48,19 @@ export default function Index() {
                 <h2 className={styles.servicesTitle}>Services</h2>
                 <div className={styles.servicesContainer}>
                     <div className={styles.service}>
-                        <span className={styles.serviceTitle}>Service 1</span>
+                        <span className={styles.serviceTitle}>Tree Removal</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                     <div className={styles.service}>
-                        <span className={styles.serviceTitle}>Service 1</span>
+                        <span className={styles.serviceTitle}>Land Clearning</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                     <div className={styles.service}>
-                        <span className={styles.serviceTitle}>Service 1</span>
+                        <span className={styles.serviceTitle}>Brush Cutting</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                     <div className={styles.service}>
-                        <span className={styles.serviceTitle}>Service 1</span>
+                        <span className={styles.serviceTitle}>Snow Plowing</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                 </div>
