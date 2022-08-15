@@ -52,7 +52,7 @@ export default function Index() {
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                     <div className={styles.service}>
-                        <span className={styles.serviceTitle}>Land Clearning</span>
+                        <span className={styles.serviceTitle}>Land Clearing</span>
                         <p className={styles.servicePar}>Description of service 1.</p>
                     </div>
                     <div className={styles.service}>
@@ -75,6 +75,11 @@ export default function Index() {
                     <img className={styles.workPhoto} src="/images/work/5.jpg" />
                     <img className={styles.workPhoto} src="/images/work/6.jpg" />
                     <img className={styles.workPhoto} src="/images/work/7.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/8.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/9.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/10.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/11.jpg" />
+                    <img className={styles.workPhoto} src="/images/work/12.jpg" />
                 </div>
             </section>
             <section className={styles.contactSection} id="contact">
