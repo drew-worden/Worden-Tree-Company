@@ -29,6 +29,11 @@ export default function Index() {
                 <a href="#contact">
                     <span className={styles.contactButton + " clickable"}>Contact</span>
                 </a>
+                <div className={styles.contactInfo}>
+                    <span>shea@wordentree.com</span>
+                    <span>(959) 202-8158</span>
+                    <span>@wordentree</span>
+                </div>
             </section>
             <section className={styles.workSection} id="work">
                 <h2 className={styles.workSectionTitle}>Work</h2>
