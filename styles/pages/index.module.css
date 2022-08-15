@@ -12,6 +12,10 @@
     height: 600px;
 }
 
+.logo {
+    width: 375px;
+}
+
 .heroTitle {
     font-family: work;
     font-weight: 800;
@@ -204,6 +208,15 @@
 @media (max-width: 600px) {
     .heroSection {
         height: 480px;
+    }
+
+    .logoWrapper {
+        padding: 20px;
+        border-radius: 500px;
+    }
+
+    .logo {
+        width: 300px;
     }
 
     .heroTitle {

@@ -25,7 +25,7 @@ export default function Index() {
     return (
         <main className={styles.main}>
             <section className={styles.heroSection} id="home">
-                <h1 className={styles.heroTitle}>Worden Tree Company</h1>
+                <img className={styles.logo} src="/images/logo.svg" />
                 <a href="#contact">
                     <span className={styles.contactButton + " clickable"}>Contact</span>
                 </a>
